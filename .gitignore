@@ -1,0 +1,5 @@
+elasticsearch
+data
+*.tar.gz
+node_modules
+*.log

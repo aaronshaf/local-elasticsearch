@@ -1,0 +1,21 @@
+{
+  "name": "local-elasticsearch",
+  "version": "1.5.2-rc5",
+  "description": "A Node.js wrapper of Elasticsearch",
+  "bin": {
+    "elasticsearch": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronshaf/local-elasticsearch.git"
+  },
+  "keywords": [
+    "Elasticsearch"
+  ],
+  "author": "Aaron Shafovaloff <aaronshaf@gmail.com>",
+  "license": "Apache License",
+  "bugs": {
+    "url": "https://github.com/aaronshaf/local-elasticsearch/issues"
+  },
+  "homepage": "https://github.com/aaronshaf/local-elasticsearch#readme"
+}
