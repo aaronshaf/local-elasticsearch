@@ -27,7 +27,7 @@ node_modules/.bin/elasticsearch
 From inside a Node.js application:
 
 ```javascript
-const localElasticsearch = require('local-elasticsearch')
+var localElasticsearch = require('local-elasticsearch')
 var myArguments = []
 var child = localElasticsearch.launch(myArguments)
 ```
