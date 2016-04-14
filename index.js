@@ -2,8 +2,6 @@
 
 var cp = require('child_process')
 var path = require('path')
-var os = require('os')
-var crypto = require('crypto')
 
 if (require.main === module) {
   var child = launch(process.argv)
