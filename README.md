@@ -1,8 +1,5 @@
 A Node.js wrapper of Elasticsearch useful for development or testing.
 
-* Uses random cluster name by default
-* Uses local `elasticsearch-data` directory by default
-
 ## Installation
 
 ```
