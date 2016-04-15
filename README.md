@@ -1,6 +1,6 @@
 A Node.js wrapper of Elasticsearch useful for development or testing.
 
-Sets `network.host=127.0.0.1` for versions below 2.0.
+Sets `node.local=true` by default.
 
 ## Installation
 

@@ -17,12 +17,11 @@ function launch (args) {
 
   var cmd = path.join(__dirname, 'elasticsearch', 'bin', 'elasticsearch')
 
-  // not needed >= Elasticsearch 2.0
-  var networkHostAlreadySet = args.some(function (arg) {
-    return arg.indexOf('network.host') > -1
+  var nodeLocalAlreadySet = args.some(function (arg) {
+    return arg.indexOf('node.local') > -1
   })
-  if (!networkHostAlreadySet) {
-    args.push('--network.host', '127.0.0.1')
+  if (!nodeLocalAlreadySet) {
+    args.push('--node.local', 'true')
   }
 
   var opts = {

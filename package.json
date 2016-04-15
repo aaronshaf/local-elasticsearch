@@ -1,6 +1,6 @@
 {
   "name": "local-elasticsearch",
-  "version": "1.5.2-rc5",
+  "version": "1.5.2-rc6",
   "description": "A Node.js wrapper of Elasticsearch",
   "bin": {
     "elasticsearch": "index.js"
