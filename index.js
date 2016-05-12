@@ -23,6 +23,7 @@ function launch (args) {
   if (!nodeLocalAlreadySet) {
     args.push('--node.local', 'true')
   }
+  args.push('--http.cors.enabled', 'true')
 
   var opts = {
     env: process.env,
